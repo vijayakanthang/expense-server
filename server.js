@@ -1,33 +1,3 @@
-// var http = require('http')
-// var hi =require("./new")
-// var dt =require('./Date')
-// var url= require('url')
-// var fs = require('fs')
-// const { error } = require('console')
-
-
-// http.createServer((req, res) => {
-//     fs.appendFile("test.txt","\nHello vijay",(err)=>{
-//         console.log(err);
-//         res.end();
-//     });
-
-//     fs.unlink()
-
-//     // fs.readFile("demo.html",(error,data)=>{
-//     //     res.write(data);
-//     // })
-//     // var qobj = url.parse(req.url,true).query;
-//     // res.write("Sum:"+hi.Sum(parseInt(qobj.a),parseInt(qobj.b)));
-//     // res.write("\nSub:"+hi.Sub(parseInt(qobj.a),parseInt(qobj.b)));
-//     // res.write("\nMul:"+hi.Mul(parseInt(qobj.a),parseInt(qobj.b)));
-//     // res.write("\nDiv:"+hi.Div(parseFloat(qobj.a),parseFloat(qobj.b)));
-//     // res.write(dt.Today());
-//     // res.end('');
-
-// }).listen(8080) 
-
-
 var express = require('express')
 var app = express();
 var cors = require('cors')
