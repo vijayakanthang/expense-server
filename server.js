@@ -33,7 +33,7 @@ app.get('/get',  async (req, res)=> {
 
 app.post('/api', async (req, res) => {
     const {category,amount} =req.body;
-    const newItem = new Expenses({date:new Date().toLocaleDateString(),category,amount});
+    const newItem = new Expenses({date:new Date().toLocaleDateString('en-GB'),category,amount});
     newItem.save();
     res.status(200).json(newItem)
 })
